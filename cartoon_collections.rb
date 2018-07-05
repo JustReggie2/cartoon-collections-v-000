@@ -4,8 +4,11 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer_calls)
+  the_real_calls = []
+  planeteer_calls.each do |calls|
+    the_real_calls << "#{calls.upcase}!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
