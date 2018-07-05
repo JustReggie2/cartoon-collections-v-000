@@ -5,9 +5,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
-  the_real_calls = []
-  planeteer_calls.each do |calls|
-    the_real_calls << "#{calls.upcase}!"
+  planeteer_calls.map do |calls|
+     "#{calls.upcase}!"
   end
 end
 
