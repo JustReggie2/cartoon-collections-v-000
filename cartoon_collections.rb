@@ -24,6 +24,8 @@ def find_the_cheese(foods)
   foods.each do |food|
     if food.include?(cheese)
       food
+    else
+      nil
     end
     end
   end
